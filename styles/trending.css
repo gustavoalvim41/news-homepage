@@ -1,0 +1,97 @@
+.trending {
+	margin-top: 2rem;
+
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 1.5rem;
+}
+
+.trending-card {
+	display: flex;
+	align-items: center;
+	gap: 1.25rem;
+}
+
+.trending img {
+	height: 7rem;
+}
+
+.trending-number {
+	font-size: 1.5rem;
+	font-weight: 700;
+	line-height: 1.75rem;
+
+	color: var(--grayish-blue);
+}
+
+.trending-title {
+	font-size: 1.125rem;
+	font-weight: 700;
+	line-height: 2rem;
+
+	color: var(--very-dark-blue);
+}
+
+.trending-title:hover {
+	color: var(--soft-red);
+}
+
+.trending-paragraph {
+	font-size: 0.9rem;
+	font-weight: 500;
+	line-height: 1.45rem;
+
+	margin-bottom: 1.25rem;
+
+	color: var(--dark-grayish-blue);
+}
+
+@media screen and (max-width: 1024px) { 
+	.trending {
+		margin-top: 2rem;
+
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-gap: 1.5rem;
+	}
+
+	.trending-card {
+		display: flex;
+		align-items: center;
+		gap: 1.5rem;
+	}
+
+	.trending img {
+		height: 8.5rem;
+	}
+
+	.trending-number {
+		font-size: 1.75rem;
+		font-weight: 700;
+		line-height: 2rem;
+
+		color: var(--grayish-blue);
+	}
+
+	.trending-title {
+		font-size: 1.25rem;
+		font-weight: 700;
+		line-height: 2rem;
+
+		color: var(--very-dark-blue);
+	}
+
+	.trending-title:hover {
+		color: var(--soft-red);
+	}
+
+	.trending-paragraph {
+		font-size: 1rem;
+		font-weight: 500;
+		line-height: 1.5rem;
+
+		margin-bottom: 1.25rem;
+
+		color: var(--dark-grayish-blue);
+	}
+}
